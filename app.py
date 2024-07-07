@@ -12,3 +12,7 @@ def main():
 def about():
     return render_template('about.html')
 
+
+@app.route('/soul_ceramics')
+def soul_ceramics():
+    return render_template('soul_ceramics.html')
